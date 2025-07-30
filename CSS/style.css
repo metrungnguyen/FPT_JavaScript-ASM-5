@@ -65,18 +65,13 @@ body {
     justify-content: space-between;
 }
 
-.return-icon {
+.return-icon, .close-icon {
     background: transparent;
     padding: 10px 8px 10px 8px;
     border-radius: 6px;
     cursor: pointer;
-}
-
-.close-icon {
-    background: transparent;
-    padding: 10px 8px 10px 8px;
-    border-radius: 6px;
-    cursor: pointer;
+    width: 20px;
+    height: 20px;
 }
 
 .return-icon:hover, .close-icon:hover {
@@ -90,7 +85,7 @@ body {
 }
 
 .popup-content p {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .input-box {
